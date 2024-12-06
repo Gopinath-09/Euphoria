@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-width: 400px;
+    background-image: url('./slow.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.adminlogin{
+    margin: 140px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 20px 0px;
+    min-width: 300px;max-width: max-content;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: rgba(255, 254, 254, 0.8);
+}
+
+.adminlogin div{
+    width: 100%;
+}
+
+.adminlogin div input{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.adminlogin h3{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.adminlogin button{
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}

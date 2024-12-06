@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EUPHORIA 2K24</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://kit.fontawesome.com/78ce76f482.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./login.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="clg-logo"><img src="https://kalasalingam.ac.in/wp-content/uploads/2022/02/Logo.png" alt=""></div>
+        <hr>
+        <input type="checkbox" name="" id="navopen">
+        <label class="tonavbar" for="navopen"><i class="fa-solid fa-bars"></i></label>
+        <div class="nav-links">
+          <li><a href="../index.html">BACK</a></li>
+          <li><a href="#">ADMIN LOGIN</a></li>
+        </div>
+        <label class="tonavbarx" for="navopen"><i class="fa-solid fa-x"></i></label>
+        <hr>
+      </nav>
+    </header>
+
+    <div class="bodyar">
+        <div class="adminlogin">
+            <form action="./download.php" method="post">
+                <h3>Admin Login</h3>
+                <div>
+                    <label for="id">Admin ID: </label>
+                    <input type="text" class="form-control" name="id" id="id" required>
+                </div><br>
+                <div>
+                    <label for="pass">Password: </label>
+                    <input type="password" class="form-control" id="pass" name="pass" required>
+                </div><br>
+                <div class="download">
+                    <label for="Select">Download: </label>
+                    <select name="download" id="Select" required>
+                        <option value="">-Select type-</option>
+                        <option value="paidlist">Paid_List</option>
+                        <option value="notpaidlist">Not_Paid_List</option>
+                    </select>
+                </div><br>
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+
+  </body>
+
+</html>
+

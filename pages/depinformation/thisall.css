@@ -1,0 +1,97 @@
+@import url(../../css/navbar.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: inside square;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-width: 400px;
+    background-image: url('../../imagedata/bggif/slow.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.goevent{
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goevent div{
+    border: 1px solid gray;
+    background-color: rgba(255, 254, 254, 0.8);
+    padding: 32px;
+    border-radius: 20px;
+}
+
+.goevent div h3{
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    padding: 15px 25px;
+    border-radius: 15px;
+    margin: 0px auto 30px;
+}
+.goevent div ol li{
+    color: black;
+    margin: 10px 0px;
+}
+.goevent div ol li a{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.eventsinfo{
+    width: 100%;
+    max-width: 966px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 10px 90px;
+}
+.event{
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 254, 254, 0.8);
+}
+.event p:first-child , .event p:last-child a{
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.event p:last-child a{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 7px 103px;
+}
+.event p:last-child{
+    margin: 25px 0px 5px;
+    width: 100%;
+}
+.event p{
+    word-wrap: break-word;
+}
+.eventrounds ol li{
+    margin-left: 10px;
+    list-style: none;
+}
