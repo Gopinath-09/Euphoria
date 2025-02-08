@@ -1,11 +1,6 @@
 <?php
 
-//$conn=mysqli_connect('localhost','root','','foreg');
-//$conn=mysqli_connect('localhost','root','','epiz_29912259_forex');
-
-//$conn=mysqli_connect('sql312.epizy.com','epiz_29912259','W8kjERUbRH3xR6r','epiz_29912259_forex');
-
-$conn=mysqli_connect('sql107.infinityfree.com','if0_35334360','WgCElu0VQJEOz','if0_35334360_kareccevent');
+$conn=mysqli_connect('localhost','root','','foreg');
 
 if(mysqli_connect_errno())
 
